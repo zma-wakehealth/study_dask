@@ -1,0 +1,535 @@
+/home/zhma/study_dask/.venv/lib64/python3.9/site-packages/distributed/cli/dask_scheduler.py:142: FutureWarning: dask-scheduler is deprecated and will be removed in a future release; use `dask scheduler` instead
+  warnings.warn(
+2025-08-04 16:43:44,351 - distributed.scheduler - INFO - -----------------------------------------------
+2025-08-04 16:43:45,163 - distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+2025-08-04 16:43:45,209 - distributed.scheduler - INFO - State start
+2025-08-04 16:43:45,210 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/scheduler-yrz_crge', purging
+2025-08-04 16:43:45,220 - distributed.scheduler - INFO - -----------------------------------------------
+2025-08-04 16:43:45,221 - distributed.scheduler - INFO -   Scheduler at:    tcp://10.149.0.89:8786
+2025-08-04 16:43:45,221 - distributed.scheduler - INFO -   dashboard at:  http://10.149.0.89:8787/status
+2025-08-04 16:43:45,221 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+/home/zhma/study_dask/.venv/lib64/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/home/zhma/study_dask/.venv/lib64/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+2025-08-04 16:43:54,737 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.149.0.89:33189'
+2025-08-04 16:43:54,739 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.149.0.89:44855'
+2025-08-04 16:43:54,754 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.149.0.89:40471'
+/home/zhma/study_dask/.venv/lib64/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/home/zhma/study_dask/.venv/lib64/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+2025-08-04 16:43:55,036 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.149.0.134:36863'
+2025-08-04 16:43:55,040 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.149.0.134:46203'
+2025-08-04 16:43:55,050 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.149.0.134:33325'
+2025-08-04 16:43:55,604 - distributed.diskutils - INFO - Found stale lock file and directory '/scratch/zhma/tmprun/dask-scratch-space/worker-vv_7bs9c', purging
+2025-08-04 16:43:55,631 - distributed.diskutils - INFO - Found stale lock file and directory '/scratch/zhma/tmprun/dask-scratch-space/worker-u65mt1ny', purging
+2025-08-04 16:43:55,649 - distributed.diskutils - INFO - Found stale lock file and directory '/scratch/zhma/tmprun/dask-scratch-space/worker-i5fk6jxa', purging
+2025-08-04 16:43:55,870 - distributed.diskutils - INFO - Found stale lock file and directory '/scratch/zhma/tmprun/dask-scratch-space/worker-b6fq27f9', purging
+2025-08-04 16:43:55,898 - distributed.diskutils - INFO - Found stale lock file and directory '/scratch/zhma/tmprun/dask-scratch-space/worker-r9o70_6b', purging
+2025-08-04 16:43:55,904 - distributed.diskutils - INFO - Found stale lock file and directory '/scratch/zhma/tmprun/dask-scratch-space/worker-29b2l5yv', purging
+2025-08-04 16:43:56,448 - distributed.worker - INFO -       Start worker at:    tcp://10.149.0.89:35721
+2025-08-04 16:43:56,448 - distributed.worker - INFO -       Start worker at:    tcp://10.149.0.89:39833
+2025-08-04 16:43:56,448 - distributed.worker - INFO -          Listening to:    tcp://10.149.0.89:35721
+2025-08-04 16:43:56,448 - distributed.worker - INFO -           Worker name:      cpu_worker_demon089-0
+2025-08-04 16:43:56,448 - distributed.worker - INFO -          dashboard at:          10.149.0.89:36165
+2025-08-04 16:43:56,448 - distributed.worker - INFO - Waiting to connect to:        tcp://demon089:8786
+2025-08-04 16:43:56,448 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,448 - distributed.worker - INFO -               Threads:                          1
+2025-08-04 16:43:56,448 - distributed.worker - INFO -                Memory:                  24.00 GiB
+2025-08-04 16:43:56,448 - distributed.worker - INFO -       Local Directory: /scratch/zhma/tmprun/dask-scratch-space/worker-b6fq27f9
+2025-08-04 16:43:56,448 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,448 - distributed.worker - INFO -          Listening to:    tcp://10.149.0.89:39833
+2025-08-04 16:43:56,449 - distributed.worker - INFO -           Worker name:      cpu_worker_demon089-1
+2025-08-04 16:43:56,449 - distributed.worker - INFO -          dashboard at:          10.149.0.89:42345
+2025-08-04 16:43:56,449 - distributed.worker - INFO - Waiting to connect to:        tcp://demon089:8786
+2025-08-04 16:43:56,449 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,449 - distributed.worker - INFO -               Threads:                          1
+2025-08-04 16:43:56,449 - distributed.worker - INFO -                Memory:                  24.00 GiB
+2025-08-04 16:43:56,449 - distributed.worker - INFO -       Local Directory: /scratch/zhma/tmprun/dask-scratch-space/worker-r9o70_6b
+2025-08-04 16:43:56,449 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,452 - distributed.worker - INFO -       Start worker at:    tcp://10.149.0.89:37961
+2025-08-04 16:43:56,452 - distributed.worker - INFO -          Listening to:    tcp://10.149.0.89:37961
+2025-08-04 16:43:56,452 - distributed.worker - INFO -           Worker name:        gpu_worker_demon089
+2025-08-04 16:43:56,452 - distributed.worker - INFO -          dashboard at:          10.149.0.89:39307
+2025-08-04 16:43:56,452 - distributed.worker - INFO - Waiting to connect to:        tcp://demon089:8786
+2025-08-04 16:43:56,452 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,452 - distributed.worker - INFO -               Threads:                          1
+2025-08-04 16:43:56,452 - distributed.worker - INFO -                Memory:                  24.00 GiB
+2025-08-04 16:43:56,452 - distributed.worker - INFO -       Local Directory: /scratch/zhma/tmprun/dask-scratch-space/worker-29b2l5yv
+2025-08-04 16:43:56,452 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,696 - distributed.worker - INFO -       Start worker at:   tcp://10.149.0.134:41487
+2025-08-04 16:43:56,696 - distributed.worker - INFO -          Listening to:   tcp://10.149.0.134:41487
+2025-08-04 16:43:56,696 - distributed.worker - INFO -           Worker name:        gpu_worker_demon134
+2025-08-04 16:43:56,696 - distributed.worker - INFO -          dashboard at:         10.149.0.134:33945
+2025-08-04 16:43:56,696 - distributed.worker - INFO - Waiting to connect to:        tcp://demon089:8786
+2025-08-04 16:43:56,696 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,696 - distributed.worker - INFO -               Threads:                          1
+2025-08-04 16:43:56,696 - distributed.worker - INFO -                Memory:                  24.00 GiB
+2025-08-04 16:43:56,696 - distributed.worker - INFO -       Local Directory: /scratch/zhma/tmprun/dask-scratch-space/worker-z8am6xua
+2025-08-04 16:43:56,696 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,698 - distributed.worker - INFO -       Start worker at:   tcp://10.149.0.134:33239
+2025-08-04 16:43:56,698 - distributed.worker - INFO -          Listening to:   tcp://10.149.0.134:33239
+2025-08-04 16:43:56,698 - distributed.worker - INFO -           Worker name:      cpu_worker_demon134-1
+2025-08-04 16:43:56,698 - distributed.worker - INFO -          dashboard at:         10.149.0.134:36087
+2025-08-04 16:43:56,698 - distributed.worker - INFO - Waiting to connect to:        tcp://demon089:8786
+2025-08-04 16:43:56,698 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,699 - distributed.worker - INFO -               Threads:                          1
+2025-08-04 16:43:56,699 - distributed.worker - INFO -                Memory:                  24.00 GiB
+2025-08-04 16:43:56,699 - distributed.worker - INFO -       Local Directory: /scratch/zhma/tmprun/dask-scratch-space/worker-1z07o1w7
+2025-08-04 16:43:56,699 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,699 - distributed.worker - INFO -       Start worker at:   tcp://10.149.0.134:47085
+2025-08-04 16:43:56,699 - distributed.worker - INFO -          Listening to:   tcp://10.149.0.134:47085
+2025-08-04 16:43:56,699 - distributed.worker - INFO -           Worker name:      cpu_worker_demon134-0
+2025-08-04 16:43:56,699 - distributed.worker - INFO -          dashboard at:         10.149.0.134:33369
+2025-08-04 16:43:56,699 - distributed.worker - INFO - Waiting to connect to:        tcp://demon089:8786
+2025-08-04 16:43:56,699 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:56,699 - distributed.worker - INFO -               Threads:                          1
+2025-08-04 16:43:56,699 - distributed.worker - INFO -                Memory:                  24.00 GiB
+2025-08-04 16:43:56,699 - distributed.worker - INFO -       Local Directory: /scratch/zhma/tmprun/dask-scratch-space/worker-22b12x2o
+2025-08-04 16:43:56,700 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:57,311 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.149.0.89:39833', name: cpu_worker_demon089-1, status: init, memory: 0, processing: 0>
+2025-08-04 16:43:57,717 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.149.0.89:39833
+2025-08-04 16:43:57,717 - distributed.core - INFO - Starting established connection to tcp://10.149.0.89:61090
+2025-08-04 16:43:57,718 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.149.0.89:37961', name: gpu_worker_demon089, status: init, memory: 0, processing: 0>
+2025-08-04 16:43:57,717 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-08-04 16:43:57,718 - distributed.worker - INFO -         Registered to:        tcp://demon089:8786
+2025-08-04 16:43:57,718 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:57,718 - distributed.core - INFO - Starting established connection to tcp://demon089:8786
+2025-08-04 16:43:57,719 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-08-04 16:43:57,719 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.149.0.89:37961
+2025-08-04 16:43:57,719 - distributed.core - INFO - Starting established connection to tcp://10.149.0.89:61110
+2025-08-04 16:43:57,719 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.149.0.89:35721', name: cpu_worker_demon089-0, status: init, memory: 0, processing: 0>
+2025-08-04 16:43:57,719 - distributed.worker - INFO -         Registered to:        tcp://demon089:8786
+2025-08-04 16:43:57,720 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:57,720 - distributed.core - INFO - Starting established connection to tcp://demon089:8786
+2025-08-04 16:43:57,720 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.149.0.89:35721
+2025-08-04 16:43:57,720 - distributed.core - INFO - Starting established connection to tcp://10.149.0.89:61098
+2025-08-04 16:43:57,720 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: init, memory: 0, processing: 0>
+2025-08-04 16:43:57,720 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.149.0.134:41487
+2025-08-04 16:43:57,720 - distributed.core - INFO - Starting established connection to tcp://10.149.0.134:59794
+2025-08-04 16:43:57,720 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-08-04 16:43:57,721 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.149.0.134:47085', name: cpu_worker_demon134-0, status: init, memory: 0, processing: 0>
+2025-08-04 16:43:57,721 - distributed.worker - INFO -         Registered to:        tcp://demon089:8786
+2025-08-04 16:43:57,721 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:57,721 - distributed.core - INFO - Starting established connection to tcp://demon089:8786
+2025-08-04 16:43:57,720 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-08-04 16:43:57,722 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.149.0.134:47085
+2025-08-04 16:43:57,722 - distributed.core - INFO - Starting established connection to tcp://10.149.0.134:59806
+2025-08-04 16:43:57,721 - distributed.worker - INFO -         Registered to:        tcp://demon089:8786
+2025-08-04 16:43:57,721 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:57,722 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.149.0.134:33239', name: cpu_worker_demon134-1, status: init, memory: 0, processing: 0>
+2025-08-04 16:43:57,721 - distributed.core - INFO - Starting established connection to tcp://demon089:8786
+2025-08-04 16:43:57,721 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-08-04 16:43:57,722 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.149.0.134:33239
+2025-08-04 16:43:57,722 - distributed.core - INFO - Starting established connection to tcp://10.149.0.134:59802
+2025-08-04 16:43:57,722 - distributed.worker - INFO -         Registered to:        tcp://demon089:8786
+2025-08-04 16:43:57,722 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:57,722 - distributed.core - INFO - Starting established connection to tcp://demon089:8786
+2025-08-04 16:43:57,722 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-08-04 16:43:57,723 - distributed.worker - INFO -         Registered to:        tcp://demon089:8786
+2025-08-04 16:43:57,723 - distributed.worker - INFO - -------------------------------------------------
+2025-08-04 16:43:57,723 - distributed.core - INFO - Starting established connection to tcp://demon089:8786
+2025-08-04 16:44:27,233 - distributed.scheduler - INFO - Receive client connection: Client-cfec3c13-7173-11f0-ab7a-00001029fe80
+2025-08-04 16:44:27,233 - distributed.core - INFO - Starting established connection to tcp://10.149.0.89:42580
+2025-08-04 16:44:27,234 [INFO] <Client: 'tcp://10.149.0.89:8786' processes=6 threads=6, memory=144.00 GiB>
+2025-08-04 16:44:27,235 [INFO] waiting for workers to connect
+2025-08-04 16:44:37,245 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon134-1', 'host': '10.149.0.134', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-1z07o1w7', 'name': 'cpu_worker_demon134-1', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340277.2273548, 'services': {'dashboard': 36087}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0013370513916015625, 'tick-duration': 0.49931836128234863}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.020007729530334473, 'cpu': 0.0, 'memory': 178925568, 'time': 1754340276.7255604, 'host_net_io': {'read_bps': 48215763.64663146, 'write_bps': 24746081.067972537}, 'host_disk_io': {'read_bps': 1637884.7782670995, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:33325'}
+2025-08-04 16:44:37,245 [INFO] checking tcp://10.149.0.134:33239, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:37,245 [INFO] full information ==== {'type': 'Worker', 'id': 'gpu_worker_demon134', 'host': '10.149.0.134', 'resources': {'GPU': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-z8am6xua', 'name': 'gpu_worker_demon134', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340277.2242398, 'services': {'dashboard': 33945}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0018796920776367188, 'tick-duration': 0.4997868537902832}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.019995384216308594, 'cpu': 2.0, 'memory': 178659328, 'time': 1754340276.723717, 'host_net_io': {'read_bps': 48377846.69558527, 'write_bps': 24827912.240337104}, 'host_disk_io': {'read_bps': 1643414.421202886, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:36863'}
+2025-08-04 16:44:37,245 [INFO] checking tcp://10.149.0.134:41487, {'GPU': 1.0}
+2025-08-04 16:44:37,245 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon134-0', 'host': '10.149.0.134', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-22b12x2o', 'name': 'cpu_worker_demon134-0', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340277.229015, 'services': {'dashboard': 33369}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.002208232879638672, 'tick-duration': 0.5003256797790527}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.020389050853495697, 'cpu': 0.0, 'memory': 178909184, 'time': 1754340276.7248447, 'host_net_io': {'read_bps': 48120674.641687706, 'write_bps': 24840562.879664246}, 'host_disk_io': {'read_bps': 1644267.8181400057, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:46203'}
+2025-08-04 16:44:37,245 [INFO] checking tcp://10.149.0.134:47085, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:37,245 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon089-0', 'host': '10.149.0.89', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-b6fq27f9', 'name': 'cpu_worker_demon089-0', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340277.2244585, 'services': {'dashboard': 36165}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0012958049774169922, 'tick-duration': 0.5007288455963135}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.01999927520751953, 'cpu': 0.0, 'memory': 180183040, 'time': 1754340276.7236807, 'host_net_io': {'read_bps': 22200.29670286884, 'write_bps': 419317.81110120233}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:40471'}
+2025-08-04 16:44:37,245 [INFO] checking tcp://10.149.0.89:35721, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:37,245 [INFO] full information ==== {'type': 'Worker', 'id': 'gpu_worker_demon089', 'host': '10.149.0.89', 'resources': {'GPU': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-29b2l5yv', 'name': 'gpu_worker_demon089', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340277.2229605, 'services': {'dashboard': 39307}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'tick-duration': 0.5008716583251953, 'latency': 0.0013885498046875}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.019979939460754395, 'cpu': 0.0, 'memory': 180281344, 'time': 1754340276.7212427, 'host_net_io': {'read_bps': 22609.143950774876, 'write_bps': 420546.5234154334}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:33189'}
+2025-08-04 16:44:37,245 [INFO] checking tcp://10.149.0.89:37961, {'GPU': 1.0}
+2025-08-04 16:44:37,246 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon089-1', 'host': '10.149.0.89', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-r9o70_6b', 'name': 'cpu_worker_demon089-1', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340277.2209053, 'services': {'dashboard': 42345}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0023336410522460938, 'tick-duration': 0.5014808177947998}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.019979801177978516, 'cpu': 0.0, 'memory': 180940800, 'time': 1754340276.7193825, 'host_net_io': {'read_bps': 22196.7321631892, 'write_bps': 419250.48429940076}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:44855'}
+2025-08-04 16:44:37,246 [INFO] checking tcp://10.149.0.89:39833, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:37,246 [INFO] <Client: 'tcp://10.149.0.89:8786' processes=6 threads=6, memory=144.00 GiB>
+2025-08-04 16:44:37,246 [INFO] waiting for workers to connect
+2025-08-04 16:44:47,256 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon134-1', 'host': '10.149.0.134', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-1z07o1w7', 'name': 'cpu_worker_demon134-1', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340287.2258434, 'services': {'dashboard': 36087}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0028557777404785156, 'tick-duration': 0.5002236366271973}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.02002772331237793, 'cpu': 0.0, 'memory': 178946048, 'time': 1754340286.7264168, 'host_net_io': {'read_bps': 74848371.93183781, 'write_bps': 410748.99671711546}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:33325'}
+2025-08-04 16:44:47,256 [INFO] checking tcp://10.149.0.134:33239, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:47,256 [INFO] full information ==== {'type': 'Worker', 'id': 'gpu_worker_demon134', 'host': '10.149.0.134', 'resources': {'GPU': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-z8am6xua', 'name': 'gpu_worker_demon134', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340287.223953, 'services': {'dashboard': 33945}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.005632877349853516, 'tick-duration': 0.5002644062042236}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.02006863594055176, 'cpu': 0.0, 'memory': 178683904, 'time': 1754340286.7234259, 'host_net_io': {'read_bps': 74752837.42972171, 'write_bps': 406569.6522127885}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:36863'}
+2025-08-04 16:44:47,256 [INFO] checking tcp://10.149.0.134:41487, {'GPU': 1.0}
+2025-08-04 16:44:47,256 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon134-0', 'host': '10.149.0.134', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-22b12x2o', 'name': 'cpu_worker_demon134-0', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340287.2246459, 'services': {'dashboard': 33369}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.00325775146484375, 'tick-duration': 0.5001389980316162}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.019995155334472655, 'cpu': 2.0, 'memory': 179531776, 'time': 1754340286.7239869, 'host_net_io': {'read_bps': 75098534.35746697, 'write_bps': 411096.0479275156}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:46203'}
+2025-08-04 16:44:47,256 [INFO] checking tcp://10.149.0.134:47085, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:47,256 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon089-0', 'host': '10.149.0.89', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-b6fq27f9', 'name': 'cpu_worker_demon089-0', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340287.2237678, 'services': {'dashboard': 36165}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0013308525085449219, 'tick-duration': 0.4996790885925293}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.020000872611999513, 'cpu': 0.0, 'memory': 180203520, 'time': 1754340286.7240732, 'host_net_io': {'read_bps': 12177.981756771196, 'write_bps': 6237.063610886596}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:40471'}
+2025-08-04 16:44:47,256 [INFO] checking tcp://10.149.0.89:35721, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:47,256 [INFO] full information ==== {'type': 'Worker', 'id': 'gpu_worker_demon089', 'host': '10.149.0.89', 'resources': {'GPU': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-29b2l5yv', 'name': 'gpu_worker_demon089', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340287.2228954, 'services': {'dashboard': 39307}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0013251304626464844, 'tick-duration': 0.5000119209289551}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.02003331184387207, 'cpu': 2.0, 'memory': 180310016, 'time': 1754340286.7225997, 'host_net_io': {'read_bps': 10957.693351965008, 'write_bps': 6574.2173321412765}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:33189'}
+2025-08-04 16:44:47,256 [INFO] checking tcp://10.149.0.89:37961, {'GPU': 1.0}
+2025-08-04 16:44:47,256 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon089-1', 'host': '10.149.0.89', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-r9o70_6b', 'name': 'cpu_worker_demon089-1', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340287.2206821, 'services': {'dashboard': 42345}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.001936197280883789, 'tick-duration': 0.4999403953552246}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.020013465881347656, 'cpu': 0.0, 'memory': 180969472, 'time': 1754340286.7205358, 'host_net_io': {'read_bps': 9189.058003385566, 'write_bps': 4787.677356588602}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:44855'}
+2025-08-04 16:44:47,256 [INFO] checking tcp://10.149.0.89:39833, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:47,256 [INFO] <Client: 'tcp://10.149.0.89:8786' processes=6 threads=6, memory=144.00 GiB>
+2025-08-04 16:44:47,256 [INFO] waiting for workers to connect
+2025-08-04 16:44:57,267 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon134-1', 'host': '10.149.0.134', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-1z07o1w7', 'name': 'cpu_worker_demon134-1', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340297.2261717, 'services': {'dashboard': 36087}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0014705657958984375, 'tick-duration': 0.5005495548248291}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.0199997615814209, 'cpu': 2.0, 'memory': 178970624, 'time': 1754340296.7248363, 'host_net_io': {'read_bps': 1038.8624360566973, 'write_bps': 4623.8385882292305}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:33325'}
+2025-08-04 16:44:57,267 [INFO] checking tcp://10.149.0.134:33239, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:57,267 [INFO] full information ==== {'type': 'Worker', 'id': 'gpu_worker_demon134', 'host': '10.149.0.134', 'resources': {'GPU': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-z8am6xua', 'name': 'gpu_worker_demon134', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340297.2236218, 'services': {'dashboard': 33945}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.003721952438354492, 'tick-duration': 0.500056266784668}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.019950175285339357, 'cpu': 2.0, 'memory': 178704384, 'time': 1754340296.7228076, 'host_net_io': {'read_bps': 1039.8396765744712, 'write_bps': 3285.8132361890803}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:36863'}
+2025-08-04 16:44:57,267 [INFO] checking tcp://10.149.0.134:41487, {'GPU': 1.0}
+2025-08-04 16:44:57,267 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon134-0', 'host': '10.149.0.134', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-22b12x2o', 'name': 'cpu_worker_demon134-0', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340297.2259398, 'services': {'dashboard': 33369}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0015711784362792969, 'tick-duration': 0.49965596199035645}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.020004687309265138, 'cpu': 0.0, 'memory': 179556352, 'time': 1754340296.724732, 'host_net_io': {'read_bps': 345.82329526981044, 'write_bps': 4497.7018170929105}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.134:46203'}
+2025-08-04 16:44:57,267 [INFO] checking tcp://10.149.0.134:47085, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:57,267 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon089-0', 'host': '10.149.0.89', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-b6fq27f9', 'name': 'cpu_worker_demon089-0', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340297.2257874, 'services': {'dashboard': 36165}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.0037555694580078125, 'tick-duration': 0.5013940334320068}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.019972743988037108, 'cpu': 2.0, 'memory': 180228096, 'time': 1754340296.7226233, 'host_net_io': {'read_bps': 8512.727639259976, 'write_bps': 5493.247295850534}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:40471'}
+2025-08-04 16:44:57,267 [INFO] checking tcp://10.149.0.89:35721, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:57,267 [INFO] full information ==== {'type': 'Worker', 'id': 'gpu_worker_demon089', 'host': '10.149.0.89', 'resources': {'GPU': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-29b2l5yv', 'name': 'gpu_worker_demon089', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340297.2230406, 'services': {'dashboard': 39307}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.00546574592590332, 'tick-duration': 0.5012760162353516}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.01997302532196045, 'cpu': 2.0, 'memory': 180338688, 'time': 1754340296.721192, 'host_net_io': {'read_bps': 10776.086245700106, 'write_bps': 6215.045090543316}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:33189'}
+2025-08-04 16:44:57,267 [INFO] checking tcp://10.149.0.89:37961, {'GPU': 1.0}
+2025-08-04 16:44:57,267 [INFO] full information ==== {'type': 'Worker', 'id': 'cpu_worker_demon089-1', 'host': '10.149.0.89', 'resources': {'CPU_ONLY': 1.0}, 'local_directory': '/scratch/zhma/tmprun/dask-scratch-space/worker-r9o70_6b', 'name': 'cpu_worker_demon089-1', 'nthreads': 1, 'memory_limit': 25769803776, 'last_seen': 1754340297.2208636, 'services': {'dashboard': 42345}, 'metrics': {'task_counts': {}, 'bandwidth': {'total': 100000000, 'workers': {}, 'types': {}}, 'digests_total_since_heartbeat': {'latency': 0.004033803939819336, 'tick-duration': 0.5002131462097168}, 'managed_bytes': 0, 'spilled_bytes': {'memory': 0, 'disk': 0}, 'transfer': {'incoming_bytes': 0, 'incoming_count': 0, 'incoming_count_total': 0, 'outgoing_bytes': 0, 'outgoing_count': 0, 'outgoing_count_total': 0}, 'event_loop_interval': 0.02000528812408447, 'cpu': 2.0, 'memory': 180989952, 'time': 1754340296.7206886, 'host_net_io': {'read_bps': 11113.557762639139, 'write_bps': 6562.919909866633}, 'host_disk_io': {'read_bps': 0.0, 'write_bps': 0.0}, 'num_fds': 27, 'gpu-memory-total': 24152899584, 'gpu_utilization': 0, 'gpu_memory_used': 582877184}, 'status': 'running', 'nanny': 'tcp://10.149.0.89:44855'}
+2025-08-04 16:44:57,267 [INFO] checking tcp://10.149.0.89:39833, {'CPU_ONLY': 1.0}
+2025-08-04 16:44:57,268 [INFO] checking node to worker map: defaultdict(<class 'list'>, {'10.149.0.134': ['tcp://10.149.0.134:33239', 'tcp://10.149.0.134:41487', 'tcp://10.149.0.134:47085'], '10.149.0.89': ['tcp://10.149.0.89:35721', 'tcp://10.149.0.89:37961', 'tcp://10.149.0.89:39833']}) {'tcp://10.149.0.134:33239': 'cpu_worker_demon134-1', 'tcp://10.149.0.134:41487': 'gpu_worker_demon134', 'tcp://10.149.0.134:47085': 'cpu_worker_demon134-0', 'tcp://10.149.0.89:35721': 'cpu_worker_demon089-0', 'tcp://10.149.0.89:37961': 'gpu_worker_demon089', 'tcp://10.149.0.89:39833': 'cpu_worker_demon089-1'}
+2025-08-04 16:44:57,273 - distributed.worker - INFO - Run out-of-band function 'setup_logging'
+2025-08-04 16:44:57,274 - distributed.worker - INFO - Run out-of-band function 'setup_logging'
+2025-08-04 16:44:57,274 - distributed.worker - INFO - Run out-of-band function 'setup_logging'
+2025-08-04 16:44:57,276 - distributed.worker - INFO - Run out-of-band function 'setup_logging'
+2025-08-04 16:44:57,276 - distributed.worker - INFO - Run out-of-band function 'setup_logging'
+2025-08-04 16:44:57,275 - distributed.worker - INFO - Run out-of-band function 'setup_logging'
+2025-08-04 16:44:57,280 [INFO] everyone sets up logging
+2025-08-04 16:45:01,446 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.89:37961', name: gpu_worker_demon089, status: running, stored: 0, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:01,447 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:01,459 - distributed.scheduler - INFO - Receive client connection: Client-worker-e455e9b9-7173-11f0-aaf0-00001029fe80
+2025-08-04 16:45:01,459 - distributed.core - INFO - Starting established connection to tcp://10.149.0.89:37620
+2025-08-04 16:45:02,101 [INFO] i am being init
+2025-08-04 16:45:02,469 [INFO] demon089 | PID: 158448 | THREADID: 23455702111808: start gpu computing
+2025-08-04 16:45:02,550 [INFO] start gpu sleeping
+2025-08-04 16:45:02,987 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: running, stored: 0, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:02,987 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:02,989 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-04 16:45:03,006 - distributed.scheduler - INFO - Receive client connection: Client-worker-e5409086-7173-11f0-88fc-00001029fe80
+2025-08-04 16:45:03,007 - distributed.core - INFO - Starting established connection to tcp://10.149.0.134:33458
+2025-08-04 16:45:03,411 [INFO] i am being init
+2025-08-04 16:45:03,780 [INFO] demon134 | PID: 723196 | THREADID: 23455702107712: start gpu computing
+2025-08-04 16:45:03,868 [INFO] start gpu sleeping
+2025-08-04 16:45:07,553 [INFO] end gpu pipeline
+2025-08-04 16:45:07,558 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.89:37961', name: gpu_worker_demon089, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:07,558 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:07,568 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.89:39833', name: cpu_worker_demon089-1, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:07,568 [INFO] demon089 | PID: 158453 | THREADID: 23455702107712: start cpu computing
+2025-08-04 16:45:07,569 [INFO] start cpu sleeping
+2025-08-04 16:45:08,090 [INFO] demon089 | PID: 158448 | THREADID: 23455702111808: start gpu computing
+2025-08-04 16:45:08,119 [INFO] start gpu sleeping
+2025-08-04 16:45:08,872 [INFO] end gpu pipeline
+2025-08-04 16:45:08,878 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:08,878 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:08,886 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.134:33239', name: cpu_worker_demon134-1, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:08,886 [INFO] demon134 | PID: 723202 | THREADID: 23455701849664: start cpu computing
+2025-08-04 16:45:08,887 [INFO] start cpu sleeping
+2025-08-04 16:45:08,917 [INFO] demon134 | PID: 723196 | THREADID: 23455702107712: start gpu computing
+2025-08-04 16:45:08,944 [INFO] start gpu sleeping
+2025-08-04 16:45:13,123 [INFO] end gpu pipeline
+2025-08-04 16:45:13,127 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.89:37961', name: gpu_worker_demon089, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:13,127 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:13,134 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.89:35721', name: cpu_worker_demon089-0, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:13,134 [INFO] demon089 | PID: 158455 | THREADID: 23455702107712: start cpu computing
+2025-08-04 16:45:13,135 [INFO] start cpu sleeping
+2025-08-04 16:45:13,171 [INFO] demon089 | PID: 158448 | THREADID: 23455702111808: start gpu computing
+2025-08-04 16:45:13,204 [INFO] start gpu sleeping
+2025-08-04 16:45:13,949 [INFO] end gpu pipeline
+2025-08-04 16:45:13,953 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:13,953 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:13,960 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.134:47085', name: cpu_worker_demon134-0, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:13,961 [INFO] demon134 | PID: 723199 | THREADID: 23455701849664: start cpu computing
+2025-08-04 16:45:13,961 [INFO] start cpu sleeping
+2025-08-04 16:45:18,205 [INFO] end gpu pipeline
+2025-08-04 16:45:18,240 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.89:37961', name: gpu_worker_demon089, status: running, stored: 2, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:18,240 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:18,299 [INFO] demon134 | PID: 723196 | THREADID: 23455702107712: start gpu computing
+2025-08-04 16:45:18,303 [INFO] demon089 | PID: 158448 | THREADID: 23455702111808: start gpu computing
+2025-08-04 16:45:18,314 [INFO] start gpu sleeping
+2025-08-04 16:45:18,328 [INFO] start gpu sleeping
+2025-08-04 16:45:23,318 [INFO] end gpu pipeline
+2025-08-04 16:45:23,322 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.89:37961', name: gpu_worker_demon089, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:23,322 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:23,333 [INFO] end gpu pipeline
+2025-08-04 16:45:23,339 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:23,339 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:23,368 [INFO] demon089 | PID: 158448 | THREADID: 23455702111808: start gpu computing
+2025-08-04 16:45:23,399 [INFO] start gpu sleeping
+2025-08-04 16:45:23,426 [INFO] demon134 | PID: 723196 | THREADID: 23455702107712: start gpu computing
+2025-08-04 16:45:23,457 [INFO] start gpu sleeping
+2025-08-04 16:45:27,588 [INFO] end cpu sleeping
+2025-08-04 16:45:27,591 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.89:39833', name: cpu_worker_demon089-1, status: running, stored: 3, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:27,591 [INFO] demon089 | PID: 158453 | THREADID: 23455702107712: start cpu computing
+2025-08-04 16:45:27,591 [INFO] start cpu sleeping
+2025-08-04 16:45:28,402 [INFO] end gpu pipeline
+2025-08-04 16:45:28,406 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.89:37961', name: gpu_worker_demon089, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:28,406 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:28,422 [INFO] demon089 | PID: 158448 | THREADID: 23455702111808: start gpu computing
+2025-08-04 16:45:28,432 [INFO] start gpu sleeping
+2025-08-04 16:45:28,461 [INFO] end gpu pipeline
+2025-08-04 16:45:28,466 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: running, stored: 1, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:28,466 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:28,907 [INFO] end cpu sleeping
+2025-08-04 16:45:28,909 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.134:33239', name: cpu_worker_demon134-1, status: running, stored: 3, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:28,909 [INFO] demon134 | PID: 723202 | THREADID: 23455701849664: start cpu computing
+2025-08-04 16:45:28,910 [INFO] start cpu sleeping
+2025-08-04 16:45:33,155 [INFO] end cpu sleeping
+2025-08-04 16:45:33,157 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.89:35721', name: cpu_worker_demon089-0, status: running, stored: 3, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:33,157 [INFO] demon089 | PID: 158455 | THREADID: 23455702107712: start cpu computing
+2025-08-04 16:45:33,158 [INFO] start cpu sleeping
+2025-08-04 16:45:33,437 [INFO] end gpu pipeline
+2025-08-04 16:45:33,467 [INFO] demon134 | PID: 723196 | THREADID: 23455702107712: start gpu computing
+2025-08-04 16:45:33,476 [INFO] start gpu sleeping
+2025-08-04 16:45:33,981 [INFO] end cpu sleeping
+2025-08-04 16:45:33,983 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.134:47085', name: cpu_worker_demon134-0, status: running, stored: 3, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:33,983 [INFO] demon134 | PID: 723199 | THREADID: 23455701849664: start cpu computing
+2025-08-04 16:45:33,984 [INFO] start cpu sleeping
+2025-08-04 16:45:38,481 [INFO] end gpu pipeline
+2025-08-04 16:45:38,491 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: running, stored: 3, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:38,491 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:38,565 [INFO] demon134 | PID: 723196 | THREADID: 23455702107712: start gpu computing
+2025-08-04 16:45:38,594 [INFO] start gpu sleeping
+2025-08-04 16:45:43,598 [INFO] end gpu pipeline
+2025-08-04 16:45:43,602 [INFO] inside gpu_pipeline <Worker 'tcp://10.149.0.134:41487', name: gpu_worker_demon134, status: running, stored: 3, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:43,602 [INFO] checking type: <class 'dask.delayed.Delayed'>
+2025-08-04 16:45:43,646 [INFO] demon134 | PID: 723196 | THREADID: 23455702107712: start gpu computing
+2025-08-04 16:45:43,656 [INFO] start gpu sleeping
+2025-08-04 16:45:47,610 [INFO] end cpu sleeping
+2025-08-04 16:45:47,612 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.89:39833', name: cpu_worker_demon089-1, status: running, stored: 4, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:47,612 [INFO] demon089 | PID: 158453 | THREADID: 23455702107712: start cpu computing
+2025-08-04 16:45:47,613 [INFO] start cpu sleeping
+2025-08-04 16:45:48,659 [INFO] end gpu pipeline
+2025-08-04 16:45:48,929 [INFO] end cpu sleeping
+2025-08-04 16:45:48,931 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.134:33239', name: cpu_worker_demon134-1, status: running, stored: 5, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:48,931 [INFO] demon134 | PID: 723202 | THREADID: 23455701849664: start cpu computing
+2025-08-04 16:45:48,932 [INFO] start cpu sleeping
+2025-08-04 16:45:53,173 [INFO] end cpu sleeping
+2025-08-04 16:45:53,175 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.89:35721', name: cpu_worker_demon089-0, status: running, stored: 4, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:53,175 [INFO] demon089 | PID: 158455 | THREADID: 23455702107712: start cpu computing
+2025-08-04 16:45:53,176 [INFO] start cpu sleeping
+2025-08-04 16:45:54,003 [INFO] end cpu sleeping
+2025-08-04 16:45:54,005 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.134:47085', name: cpu_worker_demon134-0, status: running, stored: 5, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:45:54,005 [INFO] demon134 | PID: 723199 | THREADID: 23455701849664: start cpu computing
+2025-08-04 16:45:54,006 [INFO] start cpu sleeping
+2025-08-04 16:46:07,628 [INFO] end cpu sleeping
+2025-08-04 16:46:08,951 [INFO] end cpu sleeping
+2025-08-04 16:46:08,953 [INFO] inside cpu_pipline <Worker 'tcp://10.149.0.134:33239', name: cpu_worker_demon134-1, status: running, stored: 5, running: 1/1, ready: 0, comm: 0, waiting: 0>
+2025-08-04 16:46:08,953 [INFO] demon134 | PID: 723202 | THREADID: 23455701849664: start cpu computing
+2025-08-04 16:46:08,954 [INFO] start cpu sleeping
+2025-08-04 16:46:13,194 [INFO] end cpu sleeping
+2025-08-04 16:46:14,026 [INFO] end cpu sleeping
+2025-08-04 16:46:28,973 [INFO] end cpu sleeping
+2025-08-04 16:46:34,162 [INFO] checking result:       NOTE_ID   NOTE_DATE  word_count      max
+0  6924575841  2024-12-23         694  70094.0
+1  6922916864  2024-12-23           9    909.0
+2  6923194244  2024-12-23          30   3030.0
+3  6924240678  2024-12-23           7    707.0
+4  6921769416  2024-12-23         457  46157.0
+2025-08-04 16:46:34,164 [INFO] checking result: (<dask_expr.expr.Scalar: expr=FromDelayed(926788c).size() // 4, dtype=int64>, 4)
+2025-08-04 16:46:34,164 [INFO] =========== checking outgoing transfer ============ 
+2025-08-04 16:46:34,164 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,167 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,167 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,165 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,168 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,171 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,174 [INFO] tcp://10.149.0.134:33239cpu_worker_demon134-1
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 11)], total=1.6835718154907227MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-6be453b4cce3de3d579314f7d7150699'], total=2.7113733291625977MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-a607a6e607c24ba4377b167c6c438964'], total=2.3899707794189453MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-edb72d4944fd8c8c92512357c7d30ddf'], total=0.670405387878418MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 6)], total=5.340576171875e-05MB
+  who=None, task=[('blockwisehead-a6bb2e35e700df28951d7e578ca77bcd', 0)], total=0.0066680908203125MB
+tcp://10.149.0.134:41487gpu_worker_demon134
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-924cd79aaf7e22966bf2bb538163e9be'], total=2.711209297180176MB
+  who=tcp://10.149.0.134:47085, task=['gpu_pipeline-bf7d2ca37498065c4588be7687617b77'], total=1.9645633697509766MB
+  who=tcp://10.149.0.134:47085, task=['gpu_pipeline-dcc27ee2fb80e0db41c8c235363246c4'], total=2.246312141418457MB
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-525def2fe455d028007d3fdd17341666'], total=2.3898067474365234MB
+  who=None, task=['make_meta-bb2bc544-72ca-46bc-b2fe-8cb12c429543'], total=0.005803108215332031MB
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-012bf68f93898b4e5e1db4e2c5925834'], total=0.6213083267211914MB
+  who=tcp://10.149.0.134:47085, task=['gpu_pipeline-9e198122b335e1763a2231bf9179cebf'], total=2.2124996185302734MB
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-b6983a9c8dbd6a8a1e77442d42e2970d'], total=0.6702413558959961MB
+  who=None, task=[('toparquetbarrier-4cd20916a6ee0a0d4e391ac671487abb', 0)], total=1.52587890625e-05MB
+tcp://10.149.0.134:47085cpu_worker_demon134-0
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 1)], total=2.022122383117676MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 9)], total=1.7825517654418945MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-4ec7065b5cc54752837dcffb68f611dd'], total=1.9647274017333984MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-58d77faacae6e6b1859a24bcedcf8edc'], total=2.246476173400879MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 4)], total=5.340576171875e-05MB
+tcp://10.149.0.89:35721cpu_worker_demon089-0
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 0)], total=2.092160224914551MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 12)], total=1.5161762237548828MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-3816d434933c0f94aaae25188d2f5195'], total=2.1817216873168945MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-43084790cec47765bad621b73a71ce90'], total=2.3100290298461914MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 3)], total=5.340576171875e-05MB
+tcp://10.149.0.89:37961gpu_worker_demon089
+  who=tcp://10.149.0.89:39833, task=['gpu_pipeline-ce6c07f3fd5e433f80fd6c27aac1a1e3'], total=2.620419502258301MB
+  who=tcp://10.149.0.89:35721, task=['gpu_pipeline-200edd0139bfb35b506ad9075c9a0379'], total=2.1815576553344727MB
+  who=tcp://10.149.0.89:35721, task=['gpu_pipeline-8d47b48d9a34a5b7a630b5ddde0b2742'], total=2.3098649978637695MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 10)], total=1.733525276184082MB
+  who=tcp://10.149.0.89:39833, task=['gpu_pipeline-a89be8e328e554170404c4c0d3ab1775'], total=0.6359243392944336MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 8)], total=1.8442211151123047MB
+  who=tcp://10.149.0.89:39833, task=['gpu_pipeline-274ef53f42e4b30cd14bfab9a4939ee7'], total=2.0410633087158203MB
+  who=tcp://10.149.0.89:35721, task=['gpu_pipeline-fb7b71e2eb8b5dbcf3ec8b3619b5940e'], total=0.7226419448852539MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 6)], total=0.4799509048461914MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 4)], total=1.7074413299560547MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 2)], total=0.5176992416381836MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 8), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 10), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 11), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 12)], total=0.000213623046875MB
+tcp://10.149.0.89:39833cpu_worker_demon089-1
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-10b8863c9941c5967169936cba2a8fbc'], total=2.6205835342407227MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-02858c88e14c2ff4a999d2aa46be6fcf'], total=0.6355581283569336MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 5)], total=5.340576171875e-05MB
+
+2025-08-04 16:46:34,174 [INFO] =========== checking incoming transfer ============ 
+2025-08-04 16:46:34,177 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,177 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,177 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,177 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,178 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,179 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:34,181 [INFO] tcp://10.149.0.134:33239cpu_worker_demon134-1
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-924cd79aaf7e22966bf2bb538163e9be'], total=2.711209297180176MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-525def2fe455d028007d3fdd17341666'], total=2.3898067474365234MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-012bf68f93898b4e5e1db4e2c5925834'], total=0.6213083267211914MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-b6983a9c8dbd6a8a1e77442d42e2970d'], total=0.6702413558959961MB
+tcp://10.149.0.134:41487gpu_worker_demon134
+  who=tcp://10.149.0.134:33239, task=['cpu_pipeline-6be453b4cce3de3d579314f7d7150699'], total=2.7113733291625977MB
+  who=tcp://10.149.0.89:39833, task=['cpu_pipeline-10b8863c9941c5967169936cba2a8fbc'], total=2.6205835342407227MB
+  who=tcp://10.149.0.89:39833, task=['cpu_pipeline-02858c88e14c2ff4a999d2aa46be6fcf'], total=0.6355581283569336MB
+  who=tcp://10.149.0.89:35721, task=['cpu_pipeline-43084790cec47765bad621b73a71ce90'], total=2.3100290298461914MB
+  who=tcp://10.149.0.134:33239, task=['cpu_pipeline-edb72d4944fd8c8c92512357c7d30ddf'], total=0.670405387878418MB
+  who=tcp://10.149.0.134:33239, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 6)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:35721, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 3)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:39833, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 5)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.134:47085, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 4)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:37961, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 8), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 10), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 11), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 12)], total=0.000213623046875MB
+tcp://10.149.0.134:47085cpu_worker_demon134-0
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-bf7d2ca37498065c4588be7687617b77'], total=1.9645633697509766MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-dcc27ee2fb80e0db41c8c235363246c4'], total=2.246312141418457MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-9e198122b335e1763a2231bf9179cebf'], total=2.2124996185302734MB
+tcp://10.149.0.89:35721cpu_worker_demon089-0
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-200edd0139bfb35b506ad9075c9a0379'], total=2.1815576553344727MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-8d47b48d9a34a5b7a630b5ddde0b2742'], total=2.3098649978637695MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-fb7b71e2eb8b5dbcf3ec8b3619b5940e'], total=0.7226419448852539MB
+tcp://10.149.0.89:37961gpu_worker_demon089
+  who=tcp://10.149.0.89:35721, task=['cpu_pipeline-3816d434933c0f94aaae25188d2f5195'], total=2.1817216873168945MB
+  who=tcp://10.149.0.134:47085, task=['cpu_pipeline-4ec7065b5cc54752837dcffb68f611dd'], total=1.9647274017333984MB
+  who=tcp://10.149.0.134:33239, task=['cpu_pipeline-a607a6e607c24ba4377b167c6c438964'], total=2.3899707794189453MB
+  who=tcp://10.149.0.134:47085, task=['cpu_pipeline-58d77faacae6e6b1859a24bcedcf8edc'], total=2.246476173400879MB
+tcp://10.149.0.89:39833cpu_worker_demon089-1
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-ce6c07f3fd5e433f80fd6c27aac1a1e3'], total=2.620419502258301MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-a89be8e328e554170404c4c0d3ab1775'], total=0.6359243392944336MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-274ef53f42e4b30cd14bfab9a4939ee7'], total=2.0410633087158203MB
+
+2025-08-04 16:46:39,184 [INFO] forcing a shuffle
+2025-08-04 16:46:39,301 [INFO] checking after groupby: word_count
+0              0.0
+1         772246.0
+2        2647614.0
+3        3609033.0
+4        5052828.0
+           ...    
+11313    1142613.0
+11929    1204829.0
+13058    1318858.0
+13645    1378145.0
+15930    1608930.0
+Name: max, Length: 5048, dtype: float64
+2025-08-04 16:46:39,301 [INFO] =========== checking outgoing transfer ============ 
+2025-08-04 16:46:39,303 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,307 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,307 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,307 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,308 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,307 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,309 [INFO] tcp://10.149.0.134:33239cpu_worker_demon134-1
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 11)], total=1.6835718154907227MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-6be453b4cce3de3d579314f7d7150699'], total=2.7113733291625977MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-a607a6e607c24ba4377b167c6c438964'], total=2.3899707794189453MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-edb72d4944fd8c8c92512357c7d30ddf'], total=0.670405387878418MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 6)], total=5.340576171875e-05MB
+  who=None, task=[('blockwisehead-a6bb2e35e700df28951d7e578ca77bcd', 0)], total=0.0066680908203125MB
+  who=tcp://10.149.0.89:35721, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 8)], total=0.0496063232421875MB
+  who=tcp://10.149.0.89:39833, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 6), ('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 0), ('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 2)], total=0.1299896240234375MB
+tcp://10.149.0.134:41487gpu_worker_demon134
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-924cd79aaf7e22966bf2bb538163e9be'], total=2.711209297180176MB
+  who=tcp://10.149.0.134:47085, task=['gpu_pipeline-bf7d2ca37498065c4588be7687617b77'], total=1.9645633697509766MB
+  who=tcp://10.149.0.134:47085, task=['gpu_pipeline-dcc27ee2fb80e0db41c8c235363246c4'], total=2.246312141418457MB
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-525def2fe455d028007d3fdd17341666'], total=2.3898067474365234MB
+  who=None, task=['make_meta-bb2bc544-72ca-46bc-b2fe-8cb12c429543'], total=0.005803108215332031MB
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-012bf68f93898b4e5e1db4e2c5925834'], total=0.6213083267211914MB
+  who=tcp://10.149.0.134:47085, task=['gpu_pipeline-9e198122b335e1763a2231bf9179cebf'], total=2.2124996185302734MB
+  who=tcp://10.149.0.134:33239, task=['gpu_pipeline-b6983a9c8dbd6a8a1e77442d42e2970d'], total=0.6702413558959961MB
+  who=None, task=[('toparquetbarrier-4cd20916a6ee0a0d4e391ac671487abb', 0)], total=1.52587890625e-05MB
+tcp://10.149.0.134:47085cpu_worker_demon134-0
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 1)], total=2.022122383117676MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 9)], total=1.7825517654418945MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-4ec7065b5cc54752837dcffb68f611dd'], total=1.9647274017333984MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-58d77faacae6e6b1859a24bcedcf8edc'], total=2.246476173400879MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 4)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:39833, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 4)], total=0.0490264892578125MB
+  who=tcp://10.149.0.89:35721, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 10), ('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 12)], total=0.096160888671875MB
+tcp://10.149.0.89:35721cpu_worker_demon089-0
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 0)], total=2.092160224914551MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 12)], total=1.5161762237548828MB
+  who=tcp://10.149.0.89:37961, task=['cpu_pipeline-3816d434933c0f94aaae25188d2f5195'], total=2.1817216873168945MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-43084790cec47765bad621b73a71ce90'], total=2.3100290298461914MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 3)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:39833, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 3)], total=0.0413818359375MB
+  who=tcp://10.149.0.89:39833, task=[('sum-tree-30c76418725e3c5f0ff3d864151bb44a', 1, 1)], total=0.067626953125MB
+tcp://10.149.0.89:37961gpu_worker_demon089
+  who=tcp://10.149.0.89:39833, task=['gpu_pipeline-ce6c07f3fd5e433f80fd6c27aac1a1e3'], total=2.620419502258301MB
+  who=tcp://10.149.0.89:35721, task=['gpu_pipeline-200edd0139bfb35b506ad9075c9a0379'], total=2.1815576553344727MB
+  who=tcp://10.149.0.89:35721, task=['gpu_pipeline-8d47b48d9a34a5b7a630b5ddde0b2742'], total=2.3098649978637695MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 10)], total=1.733525276184082MB
+  who=tcp://10.149.0.89:39833, task=['gpu_pipeline-a89be8e328e554170404c4c0d3ab1775'], total=0.6359243392944336MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 8)], total=1.8442211151123047MB
+  who=tcp://10.149.0.89:39833, task=['gpu_pipeline-274ef53f42e4b30cd14bfab9a4939ee7'], total=2.0410633087158203MB
+  who=tcp://10.149.0.89:35721, task=['gpu_pipeline-fb7b71e2eb8b5dbcf3ec8b3619b5940e'], total=0.7226419448852539MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 6)], total=0.4799509048461914MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 4)], total=1.7074413299560547MB
+  who=None, task=[('read_parquet-2507b5e95b839956e6e5d2321a6ce8bf', 2)], total=0.5176992416381836MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 8), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 10), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 11), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 12)], total=0.000213623046875MB
+tcp://10.149.0.89:39833cpu_worker_demon089-1
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-10b8863c9941c5967169936cba2a8fbc'], total=2.6205835342407227MB
+  who=tcp://10.149.0.134:41487, task=['cpu_pipeline-02858c88e14c2ff4a999d2aa46be6fcf'], total=0.6355581283569336MB
+  who=tcp://10.149.0.134:41487, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 5)], total=5.340576171875e-05MB
+  who=None, task=[('sum-tree-30c76418725e3c5f0ff3d864151bb44a', 0)], total=0.07855224609375MB
+
+2025-08-04 16:46:39,309 [INFO] =========== checking incoming transfer ============ 
+2025-08-04 16:46:39,313 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,313 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,314 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,314 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,314 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,315 - distributed.worker - INFO - Run out-of-band function 'lambda'
+2025-08-04 16:46:39,316 [INFO] tcp://10.149.0.134:33239cpu_worker_demon134-1
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-924cd79aaf7e22966bf2bb538163e9be'], total=2.711209297180176MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-525def2fe455d028007d3fdd17341666'], total=2.3898067474365234MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-012bf68f93898b4e5e1db4e2c5925834'], total=0.6213083267211914MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-b6983a9c8dbd6a8a1e77442d42e2970d'], total=0.6702413558959961MB
+tcp://10.149.0.134:41487gpu_worker_demon134
+  who=tcp://10.149.0.134:33239, task=['cpu_pipeline-6be453b4cce3de3d579314f7d7150699'], total=2.7113733291625977MB
+  who=tcp://10.149.0.89:39833, task=['cpu_pipeline-10b8863c9941c5967169936cba2a8fbc'], total=2.6205835342407227MB
+  who=tcp://10.149.0.89:39833, task=['cpu_pipeline-02858c88e14c2ff4a999d2aa46be6fcf'], total=0.6355581283569336MB
+  who=tcp://10.149.0.89:35721, task=['cpu_pipeline-43084790cec47765bad621b73a71ce90'], total=2.3100290298461914MB
+  who=tcp://10.149.0.134:33239, task=['cpu_pipeline-edb72d4944fd8c8c92512357c7d30ddf'], total=0.670405387878418MB
+  who=tcp://10.149.0.134:33239, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 6)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:35721, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 3)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:39833, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 5)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.134:47085, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 4)], total=5.340576171875e-05MB
+  who=tcp://10.149.0.89:37961, task=[('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 8), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 10), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 11), ('reset_index-toparquetdata-1724a346599c6376cb6256907653f7cc', 12)], total=0.000213623046875MB
+tcp://10.149.0.134:47085cpu_worker_demon134-0
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-bf7d2ca37498065c4588be7687617b77'], total=1.9645633697509766MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-dcc27ee2fb80e0db41c8c235363246c4'], total=2.246312141418457MB
+  who=tcp://10.149.0.134:41487, task=['gpu_pipeline-9e198122b335e1763a2231bf9179cebf'], total=2.2124996185302734MB
+tcp://10.149.0.89:35721cpu_worker_demon089-0
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-200edd0139bfb35b506ad9075c9a0379'], total=2.1815576553344727MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-8d47b48d9a34a5b7a630b5ddde0b2742'], total=2.3098649978637695MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-fb7b71e2eb8b5dbcf3ec8b3619b5940e'], total=0.7226419448852539MB
+  who=tcp://10.149.0.134:33239, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 8)], total=0.0496063232421875MB
+  who=tcp://10.149.0.134:47085, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 10), ('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 12)], total=0.096160888671875MB
+tcp://10.149.0.89:37961gpu_worker_demon089
+  who=tcp://10.149.0.89:35721, task=['cpu_pipeline-3816d434933c0f94aaae25188d2f5195'], total=2.1817216873168945MB
+  who=tcp://10.149.0.134:47085, task=['cpu_pipeline-4ec7065b5cc54752837dcffb68f611dd'], total=1.9647274017333984MB
+  who=tcp://10.149.0.134:33239, task=['cpu_pipeline-a607a6e607c24ba4377b167c6c438964'], total=2.3899707794189453MB
+  who=tcp://10.149.0.134:47085, task=['cpu_pipeline-58d77faacae6e6b1859a24bcedcf8edc'], total=2.246476173400879MB
+tcp://10.149.0.89:39833cpu_worker_demon089-1
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-ce6c07f3fd5e433f80fd6c27aac1a1e3'], total=2.620419502258301MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-a89be8e328e554170404c4c0d3ab1775'], total=0.6359243392944336MB
+  who=tcp://10.149.0.89:37961, task=['gpu_pipeline-274ef53f42e4b30cd14bfab9a4939ee7'], total=2.0410633087158203MB
+  who=tcp://10.149.0.89:35721, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 3)], total=0.0413818359375MB
+  who=tcp://10.149.0.134:47085, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 4)], total=0.0490264892578125MB
+  who=tcp://10.149.0.134:33239, task=[('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 6), ('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 0), ('getitem-chunk-5b3607e84f2899bfd47b237f0a52cea8', 2)], total=0.1299896240234375MB
+  who=tcp://10.149.0.89:35721, task=[('sum-tree-30c76418725e3c5f0ff3d864151bb44a', 1, 1)], total=0.067626953125MB
+
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 469497 ON demon089 CANCELLED AT 2025-08-04T16:53:26 ***
+slurmstepd: error: *** STEP 469497.0 ON demon089 CANCELLED AT 2025-08-04T16:53:26 ***

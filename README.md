@@ -43,3 +43,16 @@ This experiment was run using the following SLURM settings:
 ```
 
 Note: Although 6 CPUs were requested, only 4 were used in test1.py to observe how Dask manages available resources.
+
+
+## Local Cluster with 1 GPU: test3.py
+This experiment sets up a local Dask cluster utilizing a single GPU. The trick is to attach a **Nanny** process after initializing the standard LocalCluster.
+
+## Cross-Node Cluster: test6.py + dask_cluster.sh + start_worker.sh
+This setup enables a Dask cluster across multiple nodes. Here's a breakdown of the related experiments:
+
+- test4.py: An unsuccessful attempt to configure the cluster purely with Python. It is just too complicated, I gave up.
+- test5.py: Nearly successful, but the default setting allowed cross-node communication.
+- test6.py: Successfully limits communication to intra-node only (except for the final `.to_parquet` operation). This is achieved by explicitly specifying node configurations.
+- dask_cluster.sh and start_worker.sh: Bash scripts used to simplify and reliably set up the cluster across nodes, proving to be much easier than the Python-only approach.
+- test5.err and test6.err: detail comparison between test5.py and test6.py; scroll down to look for "checking incoming transfer" and "checking outgoing transfer"

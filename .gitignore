@@ -3,3 +3,8 @@ slurm*.out
 .venv
 *.log
 *.svg
+dask-*.err
+dask-*.out
+__pycache__
+.vscode
+testing/

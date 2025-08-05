@@ -4,8 +4,7 @@
 #SBATCH --job-name study_dask
 #SBATCH -n 1
 #SBATCH -p defq
-#SBATCH --gpus 1
-#SBATCH --cpus-per-task 6
+#SBATCH --cpus-per-task 1
 #SBATCH --mem 16G
 #SBATCH --nodelist demon107
 
