@@ -64,9 +64,10 @@ def gpu_pipeline(df: pd.DataFrame) -> pd.DataFrame:
     logging.info(f"{worker_id}: start gpu computing")
     dataloader = DataLoader(x, batch_size=1024, shuffle=False, drop_last=False)
     outputs = []
-    for x in dataloader:
-        x = x.to("cuda:0")
-        outputs += worker.model(x).cpu().reshape(-1).tolist()
+    with torch.no_grad():
+        for x in dataloader:
+            x = x.to("cuda:0")
+            outputs += worker.model(x).cpu().reshape(-1).tolist()
     df['max'] = outputs
     logging.info(f"start gpu sleeping")
     time.sleep(5)
@@ -98,7 +99,7 @@ def write_pipeline(df: pd.DataFrame, output_dir: str) -> pd.DataFrame:
     df.to_parquet(output_dir, partition_cols=['NOTE_DATE'], index=False)
 
 def main(scheduler):
-    # Start cluster with 3 CPU-only workers
+    # Start cluster
     client = Client(scheduler)
 
     # it needs to wait a little bit to let all workers connected
@@ -141,7 +142,8 @@ def main(scheduler):
     all_futures = []
     for i, part in enumerate(partitions):
         # select a node
-        workers = all_nodes[i % num_nodes]
+        inode = all_nodes[i % num_nodes]
+        workers = node_to_workers[inode]
         # submit gpu and cpu job to this node only
         gpu_future = client.submit(gpu_pipeline, part, workers=workers, resources={'GPU': 1})
         cpu_future = client.submit(cpu_pipeline, gpu_future, workers=workers, resources={'CPU_ONLY': 1})

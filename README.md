@@ -56,3 +56,6 @@ This setup enables a Dask cluster across multiple nodes. Here's a breakdown of t
 - test6.py: Successfully limits communication to intra-node only (except for the final `.to_parquet` operation). This is achieved by explicitly specifying node configurations.
 - dask_cluster.sh and start_worker.sh: Bash scripts used to simplify and reliably set up the cluster across nodes, proving to be much easier than the Python-only approach.
 - test5.err and test6.err: detail comparison between test5.py and test6.py; scroll down to look for "checking incoming transfer" and "checking outgoing transfer"
+
+## Viewing the dashboard
+To view the dashboard, we need to `ssh -L 8787:{scheduler_node_name}:8787 zhma@demon-ln1.demon.wfubmc.edu`, the node_name can be demon102 or etc. Then on my local machine, we open a browser and use localhost:8787
